@@ -1,8 +1,8 @@
-= Dependency adder for Visual C++
+# Dependency adder for Visual C++
 
 Add all .obj files as reference into another C++ project.
 
-== Problem
+## Problem
 
 When you want to use Unit tests for C++ project, you can reference only libraries.
 
@@ -11,7 +11,7 @@ Instead that, we need to set reference to all generated object files.
 
 This app automatically update project file (which is actually xml file) to contain additional reference.
 
-== Usage
+## Usage
 
 First at all, you need to set Source variable in `ObjFileAdding/MainMethod.cs` to set project, that should reference .obj files.
 
